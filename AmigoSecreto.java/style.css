@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fefaf6;
+  color: #333;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #3a6ff7;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+header img {
+  max-width: 150px;
+}
+
+/* Área principal */
+main {
+  padding: 2rem;
+}
+
+h2 {
+  margin: 1rem 0;
+  color: #3a6ff7;
+}
+
+.input-container {
+  margin: 1rem 0;
+}
+
+.input-container input {
+  padding: 0.7rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.input-container button {
+  padding: 0.7rem 1.5rem;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #aaa;
+}
+
+ul {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+#resultado {
+  margin: 1rem 0;
+  font-weight: bold;
+  color: green;
+}
+
+/* Botão sortear */
+#btn-sortear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 0.8rem 2rem;
+  background-color: #ff5c33;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#btn-sortear img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+#btn-sortear:hover {
+  background-color: #e64b27;
+}
